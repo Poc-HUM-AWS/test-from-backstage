@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-from-backstage"
+  annotations:
+    "humanitec.com/orgId": "poc-plateng"
+    "humanitec.com/appId": "test-from-backstage"
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
